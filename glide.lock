@@ -1,0 +1,22 @@
+hash: 04d3c82ee3cbb88af63a653d393c4cc20619ce2374399ce9e98a5daeb4fcb4b1
+updated: 2016-03-21T16:57:13.943926938-07:00
+imports:
+- name: github.com/juju/errors
+  version: 1b5e39b83d1835fa480e0c2ddefb040ee82d58b3
+- name: github.com/satori/go.uuid
+  version: a07c134f8289edd9ac6ee6f0aa5f3d345f4aaf27
+- name: github.com/siddontang/go
+  version: 530a23162549a31baa14dfa3b647a9eccee8878f
+  subpackages:
+  - hack
+  - ioutil2
+  - log
+  - sync2
+- name: github.com/siddontang/go-mysql
+  version: 1a1e7fd11cb6e2d7034f903a2a8b62c8aa47a170
+  subpackages:
+  - mysql
+  - replication
+  - client
+  - packet
+devImports: []
